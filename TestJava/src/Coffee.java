@@ -1,0 +1,28 @@
+public class Coffee
+{
+    String type;
+    int sugar = 0;
+    Boolean milk = false;
+    String syrup = "None";
+    CupType cupType = CupType.M;
+
+    void info() {
+        System.out.println("Coffee type: " + type);
+        System.out.println("Sugar: " + sugar);
+        System.out.println("Milk: " + milk);
+        System.out.println("Syrup: " + syrup);
+        System.out.println("Cup size: " + cupType);
+    }
+
+    public void setCupType(CupType cupType) {this.cupType = cupType;}
+    public void setSugar(int sugar) {this.sugar = sugar;}
+    public void setMilk(Boolean milk) {this.milk = milk;}
+    public void setSyrup(String syrup) {this.syrup = syrup;}
+    public void setType(String type) {this.type = type;}
+
+//    public String getType() {return type;}
+//    public int getSugar() {return sugar;}
+//    public Boolean getMilk() {return milk;}
+//    public String getSyrup() {return syrup;}
+//    public CupType getCupType() {return cupType;}
+}

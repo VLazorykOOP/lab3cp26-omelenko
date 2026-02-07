@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        // write your code here
-        System.out.printf("Test");
-        System.out.printf("  Add Test2");
+        CoffeeFacade coffeeMachine = new CoffeeFacade();
+
+        coffeeMachine.makeLatte("M", 2, "None");
+
+        coffeeMachine.makeEspresso("S", 1, "None");
     }
 }
